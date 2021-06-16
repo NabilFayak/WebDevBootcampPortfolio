@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="lb11.css">
+        <script src="lb11.js"></script>
+        <title>Lab 11 Fortune Teller</title>
+    </head>
+    <body>
+      <div>
+          <ul id="navbar">
+            <img id="banner" src="goodvibes.png" width=100% alt="banner">
+            <li><a href="">Home</a></li>
+            <li><a href="">Picture</a></li>
+            <li><a href="">Info</a></li>
+          </ul>
+      </div>
+      <div id="headers">
+        <h1>Microcredential</h1>
+        <h2>ACE</h2>
+        <h3>May 22, 2021</h3>
+        <h4>Lab 11 Fortune Teller</h4>
+        <h5>Nabil Fayak</h5>
+      </div>
+      <form name="myForm" method="post" id="fortuneteller">
+        <label for="children">How many children do you want?</label> <br>
+        <input type="text" id="childrenAmount"> <br>
+        <label for="partner">What is your partner's name?</label> <br>
+        <input type="text" id="partnerName"> <br>
+        <label for="location">What is your ideal place to live?</label> <br>
+        <input type="text" id="idealLocation"> <br>
+        <label for="job">What job occupation are you looking to pursue?</label> <br>
+        <input type="text" id="idealJob"> <br>
+        <button type="button" onclick="fortune()" onclick="return validateForm()">Click Me To Have Your Fortune Told!</button>
+      </form>
+    </body>
+</html>

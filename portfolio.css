@@ -1,0 +1,124 @@
+/* The navbar container */ 
+ul { 
+    list-style-type: none;
+    overflow: hidden; 
+    background-color: #333; 
+}
+/* Navbar links */
+ul a { 
+    float: left; 
+    display: block; 
+    color: #f2f2f2; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+
+/* navbar padding fix*/
+#navbar {
+    align-items: left;
+    padding: 0px;
+}
+
+/* Links - change color on hover */ 
+ul a:hover { 
+    background-color: #ddd; 
+    color: black; 
+}
+/* page bkg gradient color */
+body {
+    background: linear-gradient(358deg, #4300bc, #910000, #4300bc);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    -o-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+body{
+    margin: 10px;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#nab {
+    float: left;
+    width: 35%;
+    font-size: 25px;
+    text-align: right;
+}
+
+#nabil {
+    text-align: right;
+    padding-top: 175px;
+    color: whitesmoke;
+}
+#moi {
+    float: right;
+    width: 65%;
+}
+#me {
+    width: 65%;
+}
+
+#icons {
+    color: whitesmoke;
+}
+
+#icons:hover {
+    color: grey;
+}
+
+#Bio {
+    padding-top: 650px;
+    width: 100%;
+}
+
+table {
+    border: solid;
+}
+
+th a{
+    color: whitesmoke;
+}
+
+th a:hover {
+    color: palevioletred;
+}
+
+#collections {
+    color: whitesmoke;
+}
+
+#table {
+    color: whitesmoke;
+}
+
+#socials a:hover{
+    color: palevioletred;
+}
+
+#socials a {
+    color: white;
+}
